@@ -30,3 +30,13 @@
 4. Network Tab
     - enable  "preserve log" 
     - enable "All"
+    - disable "Cache"
+    - when tracing http calls such as GET, do in Chrome:
+        F8 --> Network --> select "Fetch/XHR --> look under "Column Name" 
+
+    - under Column Name... you will see the object passed to the server. 
+      Example "Tickets" or "Products"
+      
+    - Click "Tickets" and you will see the following:
+        
+    
