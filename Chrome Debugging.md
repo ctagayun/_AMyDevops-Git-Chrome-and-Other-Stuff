@@ -27,6 +27,16 @@
           F11 = step into next function call
           Shift + F11 = step out of current function
 
+     - VS Code Short Cuts
+         Use Ctrl+Shift+O to quickly jump to a header in the current file.
+         Use Ctrl+T to search through headers across all Markdown files in the current workspace.
+
+         Path Completions:
+           Path completions help with create links to files and images. 
+         These paths are shown automatically by IntelliSense as you type the 
+         path of an image or link, and can also be manually requested by 
+         using Ctrl+Space.
+
 4. Network Tab
     - enable  "preserve log" 
     - enable "All"
@@ -39,4 +49,8 @@
       
     - Click "Tickets" and you will see the following:
         
-    
+    - images in network tab
+        ![alt text](<Example of Network Tab in Chrome-1.jpg>)
+        ![alt text](<Example of Rsponse Header Network Tab in Chrome-1.jpg>)
+        ![alt text](<Example of PayLoad Network Tab in Chrome-1.jpg>)
+        ![alt text](<Example of FormData Network Tab in Chrome-1.jpg>)
