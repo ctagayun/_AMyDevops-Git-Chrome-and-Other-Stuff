@@ -48,9 +48,30 @@
       Example "Tickets" or "Products"
       
     - Click "Tickets" and you will see the following:
-        
-    - images in network tab
+    
+    - link to: https://code.visualstudio.com/docs/languages/markdown
+    
+    - images in network tab 
         ![alt text](<Example of Network Tab in Chrome-1.jpg>)
         ![alt text](<Example of Rsponse Header Network Tab in Chrome-1.jpg>)
         ![alt text](<Example of PayLoad Network Tab in Chrome-1.jpg>)
         ![alt text](<Example of FormData Network Tab in Chrome-1.jpg>)
+
+
+  - Method 1 - how to disable/enable the javascript in Chrome
+
+        Open Chrome Dev Tool - F12 --> settings (Cog wheel) --> Preference
+           --> scroll down to Debugger --> check/uncheck Disable Javascript
+
+
+  - Method 2 - How to disable javascript in Chrome
+
+        ctl + shift + p  (run command)
+
+        Run Command panel appears
+        
+        start typing javascript
+
+        select "Disable Javascript"
+
+        hit enter to run the command -->
